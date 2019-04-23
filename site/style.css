@@ -1,0 +1,62 @@
+body{
+	background: linear-gradient(90deg, rgba(0,0,0,.5), rgb(0,0,0));
+}
+
+.btn{
+	text-align: center;
+	margin: 20px;
+}
+
+	.btn a{
+		text-decoration: none;
+		color: white;
+		padding: 10px;
+		font-size: 2em;
+		animation: btn 1s linear infinite;
+		border-radius: .5em;
+		box-shadow: 0 0 20px #fff;
+	}
+
+@keyframes btn{
+  0%{
+    background: linear-gradient(90deg, transparent, darkgreen, transparent);
+  }
+  50%{
+  	background: linear-gradient(90deg, darkgreen, transparent, darkgreen);
+  	transform: rotate(15deg);
+  }
+  100%{
+    background: linear-gradient(90deg, transparent, darkgreen, transparent);
+  }
+}
+
+form fieldset{
+	background: rgba(20,20,20);
+	color: white;
+	width: 50%;
+	margin: 10px auto;
+	width: 35%;
+}
+
+	form fieldset legend{
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	form input[type=text], form input[type=email], form textarea{
+		width: 95%;
+	}
+
+	form .end{
+		height: 629.59px;
+		margin-right: 200px; 
+	float: right;
+	}
+
+.dados{
+	margin-left: 200px; 
+	float: left;
+}
+
+@media screen and (max-width: 1570px){
+}

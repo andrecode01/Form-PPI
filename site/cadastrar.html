@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>PPI Forms</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="btn">
+		<a href="index.html">Retornar a página inicial</a>
+	</div>
+
+	<form>
+		<fieldset class="dados">
+			<legend>Dados pessoais</legend>
+
+			<p>
+			<label for="txtnome">Nome:</label><br>
+			<input type="text" id="txtnome">
+			</p>
+
+			<p>
+			<label for="txtdatanascimento">Data de nascimento:</label><br>
+			<input type="text" id="txtdatanascimento" placeholder="00/00/00">
+			</p>
+
+			<p>
+				<label>Sexo:</label><br>
+				<input type="radio" name="sexo" id="sexmasc" checked> Masculino <br>
+
+				<input type="radio" name="sexo" id="sexfem"> Feminino	
+			</p>
+
+			<p>
+				<label for="txttel">Telefone:</label><br>
+				<input type="text" id="txttel" placeholder="(00)12345678"> 
+			</p>
+
+			<p>
+				<label for="txtemail">E-Mail:</label><br>
+				<input type="email" id="txtemail" placeholder="email@email.com">
+			</p>
+
+			<p>
+				<label for="txtsenha">Senha:</label><br>
+				<input type="password" id="txtsenha">
+			</p>
+
+			<p>
+				<label for="txtconfsenha">Confirmar Senha:</label><br>
+				<input type="password" id="txtconfsenha">
+			</p>
+
+			<p>
+				<label for="txtarea">Sobre Você:</label><br>
+				<textarea rows="10" id="txtarea" placeholder="Faça resumo sobre você."></textarea>
+			</p>
+			
+		</fieldset>
+
+		<fieldset class="end">
+			
+			<legend>Endereço</legend>
+
+			<p>
+				<label for="txtcep">CEP</label><br>
+				<input type="text" id="txtcep" placeholder="00000-000">
+			</p>
+
+			<p>
+				<label for="sltestado">Estado</label>
+				<select id="sltestado">
+					<option>Selecione</option>
+					<option>ES</option>
+					<option>MG</option>
+					<option>SP</option>
+					<option>RJ</option>
+				</select>
+			</p>
+
+			<p>
+				<label for="sltcidade">Cidade</label>
+				<select id="sltcidade">
+					<option>Selecione</option>
+					<option>Castelo</option>
+					<option>Muqui</option>
+					<option>Alegre</option>
+					<option>Cachoeiro de Itapemirim</option>
+				</select>
+			</p>
+
+			<p>
+				<label for="txtlog">Logradouro:</label><br>
+				<textarea rows="2" id="txtlog"></textarea>
+			</p>
+
+			<p>
+				<label for="txtnum">Numero:</label><br>
+				<input type="tet" id="txtnum" placeholder="000">
+			</p>
+
+			<p>
+				<label for="txtbairro">Bairro:</label><br>
+				<input type="tet" id="txtbairro" placeholder="Bairro zzz zz zzzzz">
+			</p>
+
+			<p>
+				<label for="cdtipoend">Tipo de endereço:</label>
+				<input type="checkbox" id="cdtipoend">
+				Endereço comercial
+			</p>
+
+			<p style="text-align: center;">
+				<input style="font-size: 2em; margin-top: 120px;" 	type="submit" value="Cadastrar">
+			</p>
+
+		</fieldset>
+
+
+	</form>
+
+
+</body>
+</html>
